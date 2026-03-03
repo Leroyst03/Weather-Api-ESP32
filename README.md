@@ -117,6 +117,3 @@ Cada ciclo de ~3 segundos el ESP32:
 
 ---
 
-## Licencia
-
-MIT
