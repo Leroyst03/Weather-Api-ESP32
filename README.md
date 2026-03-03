@@ -93,11 +93,7 @@ Cada ciclo de ~3 segundos el ESP32:
 3. Cada **10 segundos**, si la lectura es valida, envia un POST JSON a la API:
 
 ```json
-{
-  "temperature": 24.5,
-  "humidity": 61.0,
-  "deviceId": "esp32-01"
-}
+{ "temperature": 24.5, "humidity": 61.0 }
 ```
 
 4. Alterna la pantalla OLED entre dos vistas (1.5 s cada una):
@@ -120,3 +116,7 @@ Cada ciclo de ~3 segundos el ESP32:
 4. Abre el **Monitor Serie** a 115200 baud para ver el log de arranque.
 
 ---
+
+## Licencia
+
+MIT
